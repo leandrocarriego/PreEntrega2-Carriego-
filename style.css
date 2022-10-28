@@ -1,16 +1,22 @@
 /* Setup general */
 
 
-:root {
+/* :root {
     --color_1: #ffffff;
     --color_2: #f9f9f9;
     --color_3: #3c3c3c;
     --color_4: #1f2327;
     --color_5: #090a0a;
     --color_6: #e82e2c;
-}
+} */
 
-*{
+
+
+/* .header .navbar .nav-color {
+    background-color: var(--color_5);
+} */
+
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -30,10 +36,11 @@ a {
     text-decoration: none;
     color: inherit;
     font-size: inherit;
-}
+} */
+
 
 /* header */
-
+/* 
 .header {
     background-color: #191c1f71;
     border-bottom: 1px solid #ffffff7d;
@@ -49,15 +56,15 @@ a {
 .header__title {
     font-size: 2rem;
     font-weight: 700;
-}
+} */
 
 /* navbar */
-.navbar {
-    width: 40vw;
+/* .barraDeNavegacion {
+    background-color: var(--color_5);
     
-}
+} */
 
-.navbar__ul {
+/* .navbar__ul {
     display: flex;
     justify-content: space-between;
     
@@ -87,11 +94,11 @@ a {
 .navbar a:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
-}
+} */
 
 /* footer */
 
-.footer {
+/* .footer {
     background-color: var(--color_5);
     display: flex;
     justify-content: space-between;
@@ -102,11 +109,11 @@ a {
     width: 20vw;
     display: flex;
     justify-content: space-between;
-}
+} */
 
 /* botones */
 
-.btn {
+/* .btn {
     background-color: var(--color_6);
     color: var(--color_1);
     width: 8em;
@@ -115,13 +122,13 @@ a {
     font-weight: 700;
     padding: 15px;
     border: none;
-    border-radius: 10px;
+    border-radius: 10px; } */
 
-}
+
 
 /* encabezados */
 
-.encabezado {
+/* .encabezado {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -141,13 +148,13 @@ a {
 .encabezado__subtitulo {
     font-size: 1.5rem;
     font-weight: 400;
-}
+} */
 
 /* index */
 
-.inicio {}
+/* .inicio {}
 
-.inicio__parte1 {
+.inicio .inicio__parte1 {
     background-image: 
         linear-gradient(to bottom, #05050580 80%,#090a0a),
         url(./img/inicioParte1.jpg);
@@ -159,9 +166,9 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-tituloInicioContainer {
+/* tituloInicioContainer {
     background-color: #05050580;
 }
 
@@ -175,23 +182,21 @@ tituloInicioContainer {
 .h1__subtitulo {
     font-size: 1.5rem;
     font-weight: 300;
-}
+} */
 
-.inicio__parte2 {
+/* .inicio__parte2 {
     height: 140vh;
     display: flex;
     align-items: center;
-}
+} */
 
-.inicio__parte2--container {}
+/* .inicio__parte2--container {} */
 
-.inicio__parte2--container h3 {
-    font-size: 2rem;
-    font-weight: 500;
+/* .inicio__parte2--container h3 {
     padding: 3em;
-}
+} */
 
-.inicio__parte3 {
+/* .inicio__parte3 {
     height: 100vh;
     background-image: url(./img/inicioParte3.jpg);
     background-size: cover;
@@ -201,19 +206,19 @@ tituloInicioContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.inicio__parte3--container {
+} */
+/* .inicio__parte3--container {
     
 }
 
 .inicio__parte3--container h2 {
     font-weight: 500;
     margin-bottom: 3em;
-}
+} */
 
 /* about */
 
-.about {}
+/* .about {}
 
 .about__parte1 {}
 .about__parte1--texto {}
@@ -224,27 +229,27 @@ tituloInicioContainer {
 .about__parte2--texto {}
 
 .about__parte3 {}
-.about__parte3--imgFondo {}
+.about__parte3--imgFondo {} */
 
 /* clientes */
-
+/* 
 .clients {}
 
 .galeria {}
-.galeria__tarjetaCliente {}
+.galeria__tarjetaCliente {} */
 
 
 /* services */
-
+/* 
 .services {}
 
 .tarjetaServicio {}
 .tarjetaServicio__foto {}
 .tarjetaServicio__nombre {}
-.tarjetaServicio__descripcion {}
+.tarjetaServicio__descripcion {} */
 
 /* contact */
-
+/* 
 .contact {}
 
 .contact__datos {}
@@ -266,4 +271,5 @@ tituloInicioContainer {
     color: var(--color_1);
     margin-bottom: 1em;
 }
-.formulario__btn {}
+.formulario__btn {} */
+
