@@ -13,7 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>27 Jardines - Nosotros</title>
 </head>
 
@@ -31,10 +31,10 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                            <a class="nav-link " aria-current="page" href="../index.html">INICIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/about.html">NOSOTROS</a>
+                            <a class="nav-link active" href="../pages/about.html">NOSOTROS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../pages/clients.html">CLIENTES</a>
@@ -52,40 +52,51 @@
     </header>
 
     <main class="about">
-        <section class="encabezado">
+        <section class="container pt-5 pb-5 encabezado">
             <div>
-                <h2 class="encabezado__titulo">
+                <h1 class="display-2 fw-bold text-center p2 pt-5 encabezado__titulo">
                     SOBRE NUESTRA HISTORIA
-                </h2>
-                <h3 class="encabezado__subtitulo">
+                </h1>
+                <h2 class="display-5  text-center p-4 encabezado__subtitulo">
                     Lorem ipsum, dolor sit amet consectetur
-                </h3>
+                </h2>
             </div>
         </section>
-        <section class="about__parte1">
-            <h3 class="about__parte1--texto">
-                Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit. Sed modi, ut fugit tempore, quasi
-                facere error impedit quod quas possimus tenetur
-                dignissimos perspiciatis recusandae facilis
-                ducimus necessitatibus ipsum repellendus
-                quisquam.
-            </h3>
-            <img class="about__parte1--img" src="" alt="img">
+        <section class="container pt-5 pb-5 about__parte1">
+            <div class="row">
+                <div class="col-lg-6 order-lg-last d-lg-flex flex-lg-column justify-lg-center">
+                    <img class="img-fluid align-middle  about__parte1--img" src="../img/nosotros1.jpg" alt="img">
+                </div>
+                <div class="col-lg-6 d-lg-flex flex-lg-column justify-lg-center">
+                    <h2 class="display-6 text-center fw-normal p-4 pt-5 pb-5 about__parte1--texto">
+                        Lorem ipsum, dolor sit amet consectetur
+                        adipisicing elit. Sed modi, ut fugit tempore, quasi
+                        facere error impedit quod quas possimus tenetur
+                        dignissimos
+                    </h2>
+                </div>
+            </div>
         </section>
-        <section class="about__parte2">
-            <img class="about__parte2--img" src="" alt="img">
-            <h3 class="about__parte2--texto">
-                Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit. Sed modi, ut fugit tempore, quasi
-                facere error impedit quod quas possimus tenetur
-                dignissimos perspiciatis recusandae facilis
-                ducimus necessitatibus ipsum repellendus
-                quisquam.
-            </h3>
+        <section class="container pb-5 about__parte2">
+            <div class="row">
+                <div class="col-lg-6 order-lg-first d-lg-flex flex-lg-column justify-lg-center">
+                    <img class="img-fluid  about__parte2--img" src="../img/nosotros2.jpg" alt="img">
+                </div>
+                <div class="col-lg-6 d-lg-flex flex-lg-column justify-lg-center">
+                    <h2 class="display-6 text-center fw-normal p-4 pt-5 pb-5 about__parte2--texto">
+                        Lorem ipsum, dolor sit amet consectetur
+                        adipisicing elit. Sed modi, ut fugit tempore, quasi
+                        facere error impedit quod quas possimus tenetur
+                        dignissimos
+                    
+                    </h2>
+                </div>
+            </div>
         </section>
-        <section class="about__parte3">
-            <img class="about__parte3--imgFondo" src="" alt="">
+        <section class="containerfluid pt-5 about__parte3">
+            <div>
+                <img class="img-fluid about__parte3--imgFondo" src="../img/nosotros3.jpg" alt="">
+            </div>
         </section>
     </main>
 
